@@ -1,0 +1,28 @@
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .text-white,.h3,.btn,.fs-6{
+      font-family: "Inter";
+    }
+    .fs-6{
+      color: hsl(75, 94%, 57%);
+    }
+    .img-fluid{
+      width: 90px;
+      border-radius: 45px;
+    }
+    .container-sm{
+      background-color: hsl(0, 0, 12);
+    }
+    .btn{
+      background-color: hsl(0, 0%, 20%);
+      color: white;
+      transition: background-color,color,cursor 0.15s;
+    }
+    .btn:hover{
+      background-color: hsl(75, 94%, 57%);
+      color: black;
+      cursor: url("./assets/images/icons8-cursor-30.png") 10 5,auto;
+    }
+    body{
+      background-color: hsl(0, 0%, 8%);
+    }
