@@ -1,5 +1,12 @@
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .container-sm{
+      width: 25%;
+    }    
+    
+    @media(max-width: 500px){
+      .container-sm{
+        width: 75%;
+      }
+    }
     .text-white,.h3,.btn,.fs-6{
       font-family: "Inter";
     }
